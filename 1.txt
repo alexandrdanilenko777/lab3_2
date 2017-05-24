@@ -1,0 +1,16 @@
+
+./run.sh -go -f Crypto.zip
+This would generate all our signatures & value files
+for inspection.
+
+./run.sh -v -f Crypto.zip
+This would verify the file specified using the
+generated files with created with the last command.
+
+
+--/Files Generated/--
+r.hex -             File containing r signature value in hex
+s.hex -             File containing s signature value in hex
+privatekey-x.hex -  Private key
+publickey-y.hex -   Public key
+
